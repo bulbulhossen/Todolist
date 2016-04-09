@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="All" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@android:drawable/checkbox_on_background"
+            android:title="Work" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@android:drawable/checkbox_on_background"
+            android:title="Family" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@android:drawable/checkbox_on_background"
+            android:title="Study" />
+        <item
+            android:id="@+id/nav_manag"
+            android:icon="@android:drawable/checkbox_on_background"
+            android:title="Calendar" />
+    </group>
+
+    <item android:title="Sittings">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_lock_idle_charging"
+                android:title="Edit Task Lists" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="Edit Profile" />
+        </menu>
+    </item>
+
+</menu>

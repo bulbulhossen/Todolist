@@ -15,10 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".Home"></activity>
-        <activity android:name=".SignUp"></activity>
-        <activity android:name=".Signin"></activity>
+        <activity android:name=".Home" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".Signin" />
+        <activity android:name=".Forget_password" />
+        <activity
+            android:name=".Dashborad"
+            android:label="@string/title_activity_dashborad"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
     </application>
 
 </manifest>
