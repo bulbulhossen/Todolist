@@ -102,13 +102,13 @@
             <EditText
                 android:id="@+id/email"
                 style="@style/edit_text_code"
-                android:drawableLeft="@drawable/email"
-                android:hint="Last Name" />
+                android:drawableLeft="@drawable/user"
+                android:hint="Nick Name" />
 
             <EditText
                 style="@style/edit_text_code"
-                android:drawableLeft="@drawable/user"
-                android:hint="User Name" />
+                android:drawableLeft="@drawable/email"
+                android:hint="Email" />
 
             <EditText
                 style="@style/edit_text_code"
